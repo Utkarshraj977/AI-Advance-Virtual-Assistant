@@ -1,4 +1,4 @@
-let apikey="AIzaSyCEEtXTdT55oqscy87Jp3jHh9RKPAkMksE";
+
 import {
     GoogleGenerativeAI,
     HarmCategory,
