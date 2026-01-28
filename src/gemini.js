@@ -1,6 +1,4 @@
-let apiKey = import.meta.env.VITE_API_KEY;
-console.log(apiKey);
-apiKey=AIzaSyDxBsDKGVdmaYFO6EmHfQREPgnVWdRGKQc
+const apiKey = import.meta.env.VITE_API_KEY;
 import {
     GoogleGenerativeAI,
     HarmCategory,
