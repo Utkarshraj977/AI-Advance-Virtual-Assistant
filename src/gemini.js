@@ -15,7 +15,7 @@ import {
     temperature: 1,
     topP: 0.95,
     topK: 64,
-    maxOutputTokens: 65536,
+    maxOutputTokens: 6553,
     responseModalities: [
     ],
     responseMimeType: "text/plain",
