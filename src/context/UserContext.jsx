@@ -90,6 +90,14 @@ export default function UserContext({ children }) {
     setTimeout(() => {
       setSpeaking(false)
     }, 7000)
+  }else if (command.includes("vivek") || command.includes("kon vivek ke sath kiya tha")) {
+    //window.open("https://www.google.com/search?q=ipl&oq=&gs_lcrp=EgZjaHJvbWUqCQgCEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQszNTE4MDM5ajBqN6gCCLACAfEFWVa-MkYS1AY&sourceid=chrome&ie=UTF-8", "_blank")
+    speak("vivek jo it section c me pdhta hai techno main salt lake me")
+    setAiImg(true)
+    setRectext("vivek jo it section c me pdhta hai techno main salt lake me")
+    setTimeout(() => {
+      setSpeaking(false)
+    }, 7000)
   }
 
     else {
