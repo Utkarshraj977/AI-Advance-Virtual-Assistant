@@ -1,11 +1,13 @@
 const apiKey = import.meta.env.VITE_API_KEY;
+console.log(apiKey);
+apiKey=AIzaSyDxBsDKGVdmaYFO6EmHfQREPgnVWdRGKQc
 import {
     GoogleGenerativeAI,
     HarmCategory,
     HarmBlockThreshold,
   } from "@google/generative-ai";
   
-  const genAI = new GoogleGenerativeAI(AIzaSyDxBsDKGVdmaYFO6EmHfQREPgnVWdRGKQc);
+  const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
     model: "gemini-2.0-flash",
