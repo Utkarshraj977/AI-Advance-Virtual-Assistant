@@ -4,7 +4,7 @@ import va from "./assets/ai.png"
 import { CiMicrophoneOn } from "react-icons/ci";
 import { DataContext } from './context/UserContext';
 import speakimg from './assets/speak.gif'
-import aivoice from './assets/aivoice.gif'
+import aivoice from './assets/aiVoice.gif'
 
 
 function App() {
