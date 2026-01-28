@@ -1,4 +1,4 @@
-const apiKey = import.meta.env.API_KEY;
+const apiKey = import.meta.env.VITE_API_KEY;
 import {
     GoogleGenerativeAI,
     HarmCategory,
